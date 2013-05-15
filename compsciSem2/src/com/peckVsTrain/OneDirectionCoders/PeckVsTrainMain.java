@@ -14,7 +14,7 @@ public class PeckVsTrainMain
 	 */
 	public static void main(String[] args) 
 	{
-		MyWindow mainWindow = new MyWindow();
+		MyWindow mainWindow = new MyWindow(); //  This part doesn't actually work. If you un-comment these, there is a null pointer exception. 
 		//loadImages(myURLs);
 		//mainWindow.addImages(myImages);
 		//Chicken myChick = new Chicken();
